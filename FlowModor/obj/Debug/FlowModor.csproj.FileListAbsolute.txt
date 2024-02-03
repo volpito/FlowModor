@@ -1,0 +1,13 @@
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\bin\Debug\FlowModor.exe.config
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\bin\Debug\FlowModor.exe
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\bin\Debug\FlowModor.pdb
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.IHMMain.resources
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.ProgressBar.ProgressBarUserControl.resources
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.Properties.Resources.resources
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.Timer.TimerUserControl.resources
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.ToDoList.ToDoUserControl.resources
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.exe
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.pdb
