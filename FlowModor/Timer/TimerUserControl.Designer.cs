@@ -33,9 +33,9 @@ namespace FlowModor.Timer
         {
             this.components = new System.ComponentModel.Container();
             this.StartBtn = new System.Windows.Forms.Button();
-            this.StopBtn = new System.Windows.Forms.Button();
             this.Timer = new System.Windows.Forms.Timer(this.components);
             this.TimerTextBox = new System.Windows.Forms.RichTextBox();
+            this.ResetBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // StartBtn
@@ -48,36 +48,32 @@ namespace FlowModor.Timer
             this.StartBtn.UseVisualStyleBackColor = true;
             this.StartBtn.Click += new System.EventHandler(this.StartBtn_Click);
             // 
-            // StopBtn
-            // 
-            this.StopBtn.Location = new System.Drawing.Point(371, 158);
-            this.StopBtn.Name = "StopBtn";
-            this.StopBtn.Size = new System.Drawing.Size(75, 23);
-            this.StopBtn.TabIndex = 2;
-            this.StopBtn.Text = "STOP";
-            this.StopBtn.UseVisualStyleBackColor = true;
-            this.StopBtn.Click += new System.EventHandler(this.StopBtn_Click);
-            // 
-            // Timer
-            // 
-            this.Timer.Tick += new System.EventHandler(this.Timer_Tick);
-            // 
             // TimerTextBox
             // 
-            this.TimerTextBox.Enabled = false;
             this.TimerTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 70F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TimerTextBox.Location = new System.Drawing.Point(0, 0);
             this.TimerTextBox.Name = "TimerTextBox";
+            this.TimerTextBox.ReadOnly = true;
             this.TimerTextBox.Size = new System.Drawing.Size(449, 152);
             this.TimerTextBox.TabIndex = 3;
             this.TimerTextBox.Text = "00:00:00";
+            // 
+            // ResetBtn
+            // 
+            this.ResetBtn.Location = new System.Drawing.Point(371, 158);
+            this.ResetBtn.Name = "ResetBtn";
+            this.ResetBtn.Size = new System.Drawing.Size(75, 23);
+            this.ResetBtn.TabIndex = 5;
+            this.ResetBtn.Text = "RESET";
+            this.ResetBtn.UseVisualStyleBackColor = true;
+            this.ResetBtn.Click += new System.EventHandler(this.ResetBtn_Click);
             // 
             // TimerUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.ResetBtn);
             this.Controls.Add(this.TimerTextBox);
-            this.Controls.Add(this.StopBtn);
             this.Controls.Add(this.StartBtn);
             this.Name = "TimerUserControl";
             this.Size = new System.Drawing.Size(449, 184);
@@ -87,8 +83,8 @@ namespace FlowModor.Timer
 
         #endregion
         private System.Windows.Forms.Button StartBtn;
-        private System.Windows.Forms.Button StopBtn;
         private System.Windows.Forms.Timer Timer;
         private System.Windows.Forms.RichTextBox TimerTextBox;
+        private Button ResetBtn;
     }
 }
