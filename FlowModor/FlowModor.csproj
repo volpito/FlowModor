@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>FlowModor</RootNamespace>
     <AssemblyName>FlowModor</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\Helpers.cs" />
     <Compile Include="Helpers\Test.cs" />
     <Compile Include="IHMMain\IHMMain.cs">
       <SubType>Form</SubType>
@@ -87,6 +89,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Timer\TimerUserControl.resx">
       <DependentUpon>TimerUserControl.cs</DependentUpon>
@@ -109,6 +112,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Notification\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ObjectListViewDemo\ObjectListView\ObjectListView2012.csproj">
+      <Project>{18feda0c-d147-4286-b39a-01204808106a}</Project>
+      <Name>ObjectListView2012</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

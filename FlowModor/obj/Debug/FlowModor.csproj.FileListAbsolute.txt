@@ -11,3 +11,7 @@ C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.csproj.Gener
 C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.exe
 C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.pdb
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\bin\Debug\ObjectListView.dll
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\bin\Debug\ObjectListView.pdb
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\bin\Debug\ObjectListView.xml
+C:\Users\PC\Desktop\Projets\FlowModor\FlowModor\obj\Debug\FlowModor.csproj.CopyComplete

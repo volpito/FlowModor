@@ -21,7 +21,7 @@ namespace FlowModor
             ShowDialog();
         }
 
-        public void ShowDialog()
+        public new void ShowDialog()
         {
             
         }
